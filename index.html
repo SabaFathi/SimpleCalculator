@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="result">result</div>
+
+        <table>
+            <tr>
+                <td id="c00" class="digit" onclick="add_digit(this)">1</td>
+                <td id="c01" class="digit" onclick="add_digit(this)">2</td>
+                <td id="c02" class="digit" onclick="add_digit(this)">3</td>
+                <td id="c03" class="operator" onclick="set_operator(this)">+</td>
+            </tr>
+            <tr>
+                <td id="c10" class="digit" onclick="add_digit(this)">4</td>
+                <td id="c11" class="digit" onclick="add_digit(this)">5</td>
+                <td id="c12" class="digit" onclick="add_digit(this)">6</td>
+                <td id="c13" class="operator" onclick="set_operator(this)">-</td>
+            </tr>
+            <tr>
+                <td id="c20" class="digit" onclick="add_digit(this)">7</td>
+                <td id="c21" class="digit" onclick="add_digit(this)">8</td>
+                <td id="c22" class="digit" onclick="add_digit(this)">9</td>
+                <td id="c23" class="operator" onclick="set_operator(this)">×</td>
+            </tr>
+            <tr>
+                <td id="c30" class="reset" onclick="reset()">reset</td>
+                <td id="c31" class="digit" onclick="add_digit(this)">0</td>
+                <td id="c32" class="operator" onclick="calculate_result()">=</td>
+                <td id="c33" class="operator" onclick="set_operator(this)">÷</td>
+            </tr>
+        </table>
+    </body>
+</html>

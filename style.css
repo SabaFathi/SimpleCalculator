@@ -1,0 +1,39 @@
+td{
+    border: 2px solid gray;
+    margin: 2px;
+
+    height: 100px;
+    width: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    text-align: center;
+}
+
+#result{
+    display: block;
+
+    border: 2px solid gray;
+    margin: 2px;
+    padding: 20px;
+
+    height: 130px;
+    width: 386px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+
+.digit{
+    background-color: #b8edb1;
+}
+
+.operator{
+    background-color: #f0edae;
+}
+
+.reset{
+    background-color: #c1bebd;
+}
